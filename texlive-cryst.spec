@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/cryst
+# catalog-date 2008-08-15 14:30:40 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-cryst
 Version:	20080815
 Release:	1
@@ -43,6 +49,7 @@ file and (with a font diagram) in the documentation.
 %doc %{_texmfdistdir}/doc/latex/cryst/README
 %doc %{_texmfdistdir}/doc/latex/cryst/cryst1.pdf
 %doc %{_texmfdistdir}/doc/latex/cryst/cryst1.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ file and (with a font diagram) in the documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
