@@ -50,3 +50,17 @@ file and (with a font diagram) in the documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080815-2
++ Revision: 750641
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080815-1
++ Revision: 718168
+- texlive-cryst
+- texlive-cryst
+- texlive-cryst
+- texlive-cryst
+
