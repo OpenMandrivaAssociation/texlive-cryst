@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-cryst
-Version:	20080815
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Font for graphical symbols used in crystallography
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cryst
