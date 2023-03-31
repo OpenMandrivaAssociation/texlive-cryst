@@ -1,6 +1,6 @@
 Name:		texlive-cryst
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Font for graphical symbols used in crystallography
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cryst
